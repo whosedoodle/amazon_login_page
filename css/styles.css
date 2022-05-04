@@ -1,0 +1,51 @@
+img {
+ height: 31px;
+ width: 103px;   
+}
+
+button {
+    display: block;
+    width: 30%;
+}
+
+
+/* CLASS SELECTORS */
+
+.smallbutton {
+    display: block;
+    width: 100%;
+}
+
+.signin {
+ border-color: grey;
+ border-style: solid; 
+ border-width: 1px;  
+ height: 25%;
+ width: 30%;
+ margin: 5px;
+ text-align: left;
+ padding-left: 2%;
+ padding-right: 2%;
+}
+
+.newtoamazon {
+ display: flex;
+ align-items: center;
+ height: 25%;
+ width: 30%;
+ margin: 5px;
+}
+
+.newtoamazon:before,
+.newtoamazon:after {
+    content: "";
+    border-bottom: 2px black;
+    flex: 1 1;
+}
+
+.links {
+    font-size: smaller;
+}
+
+
+/* ID SELECTORS */
